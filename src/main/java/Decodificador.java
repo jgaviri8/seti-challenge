@@ -11,7 +11,7 @@ public class Decodificador {
 		StringBuilder imagenDos = new StringBuilder();
 		for (int contadorLinea = 1; contadorLinea <= 2271; contadorLinea++) {
 			if (contadorLinea <= 757) {
-				System.out.println(contadorLinea + ": " + input.nextLine());
+				input.nextLine();
 			}
 			if (contadorLinea > 757 && contadorLinea <= 1514) {
 				StringBuilder linea = new StringBuilder(input.nextLine().replace(' ', '0'));
